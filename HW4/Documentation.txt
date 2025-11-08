@@ -1,5 +1,5 @@
 HW4 - IntArray  
-Date: 7/11/25  
+Date: 11/7/25  
 Authors: Giankarlo Gomez (G.G)
 Shaq, put your name here and then explain what you did on task 3 and 4 for the Documentation.txt
 
@@ -19,3 +19,21 @@ and declared all required member functions following the class specifications.
 
 The program compiles successfully, and the structure is now ready 
 for implementing the functions in IntArray.cpp in the next task.
+
+
+Task 3 (Primary: Sikder Ishaq - S.I):
+- Implemented all IntArray member function definitions in IntArray.cpp.
+- Initialized static field `total_entries` and ensured it tracks live instances
+  by incrementing in constructors and decrementing in the destructor.
+- Added function-level comments and top-of-file author/editor notes.
+- Verified no use of console I/O except in `print()` per specifications.
+- Commit message used: "IntArray implementation file complete." 
+
+Task 4 (Primary: Sikder Ishaq - S.I):
+- Wrote `main` in driver.cpp to test all IntArray member functions:
+  constructors, `getSize`, `getValue` (with legal index), `replace`, `swap`,
+  `print`, static `get_total_entries`, and `get_instance_percent`.
+- Ensured illegal indexes in `replace` and `swap` are handled gracefully
+  without console I/O or crashes; did not trigger assertion in `getValue`.
+- Added file header comments (primary author and editors) and method comments.
+- Commit message used: "Program complete."
