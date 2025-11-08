@@ -1,7 +1,7 @@
 HW4 - IntArray  
 Date: 11/7/25  
 Authors: Giankarlo Gomez (G.G)
-Shaq, put your name here and then explain what you did on task 3 and 4 for the Documentation.txt
+Sikder Ishaq
 
 For this homework we started building the IntArray class. 
 In Task 1, we set up the basic project structure. We created:
