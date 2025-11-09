@@ -26,11 +26,12 @@ int main()
     a.print();
     cout << "a[2] = " << a.getValue(2) << endl; // expect 30
 
-    // Test replace() with illegal index (should do nothing)
+    /* Test replace() with illegal index (should do nothing)
     a.replace(-1, 999);
     a.replace(a.getSize(), 999);
     cout << "Array a after illegal replace attempts: ";
-    a.print();
+    a.print();//  Illegal index tests cause assert to abort the program
+    // G.G*/
 
     // Populate b with identifiable values
     for (int i = 0; i < b.getSize(); ++i)

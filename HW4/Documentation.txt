@@ -37,3 +37,27 @@ Task 4 (Primary: Sikder Ishaq - S.I):
   without console I/O or crashes; did not trigger assertion in `getValue`.
 - Added file header comments (primary author and editors) and method comments.
 - Commit message used: "Program complete."
+
+CORRECTIONS G.G
+Task 3 Corrections:
+- The original implementation used conditional if-checks for replace() and swap(). 
+  However, the assignment requires using assertions to enforce valid index access. 
+  We removed the if-guards and replaced them with assert() calls, consistent with 
+  how bounds checking was demonstrated in class.
+- The destructor originally included unnecessary nullptr checks and pointer resets. 
+  We simplified the destructor to match the pattern taught in Project 1 
+  (delete[] arr; then update total_entries accordingly).
+- Added missing "using namespace std;" to maintain consistency with the header file.
+- Cleaned up formatting and comments to match the professor's coding style.
+
+Task 4 Corrections:
+- We reviewed the driver.cpp test file to ensure it did not use cin and that it 
+  correctly tested all IntArray functions.
+- We corrected a formatting issue where array values were printed without spacing.
+- Verified that get_total_entries() and get_instance_percent() produced the expected output.
+- Confirmed that no out-of-range index access bypassed assertions.
+
+Final Result:
+After these corrections, the program compiles successfully using the Makefile, 
+runs without any runtime errors, and produces the expected output consistent 
+with class specifications and coding style
